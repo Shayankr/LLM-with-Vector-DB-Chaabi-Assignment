@@ -15,39 +15,40 @@ Implementation of an LLM on the Vector DB Embeddings to provide the contextual a
    ```bash
    python -m venv venv
    ```
-   conda: ```bash
+   conda:
+   ```bash
    conda create --name myvenv python==3.8
    ```
-2. Activate created virtual environment:
+3. Activate created virtual environment:
    linux: ```bash
    Source ./venv/bin/activate
    ```
    conda: ```bash
    conda activate venv
    ```
-3. Install required libraries/ packages:
+4. Install required libraries/ packages:
    ```pip install -r requirements.txt```
-4. Download BERT Model Weights:
+5. Download BERT Model Weights:
    ```bash
    bert-large-uncased-whole-word-masking-finetuned-squad
    ```
-5. Set UP Environment Variables:
+6. Set UP Environment Variables:
    ```bash
    Save API Keys inside ".env" file --- Do not use openly
    ```
-6. Prepare CSV files:
+7. Prepare CSV files:
    ```bash
    Read and preprocess dataset
    ```
-7. Create application.py file using Flask:
+8. Create application.py file using Flask:
    ```bash
    Use HTML,  CSS and FLASK concepts.
    ```
-8. Run the Flask app:
+9. Run the Flask app:
    ```bash
    python application.py
    ```
-9. Visit Output of Sample Query:
+10. Visit Output of Sample Query:
    - Query: What wax is a sculpting product in the Schwarzkopf line?
    - Answer: Taft Hair Wax
 
