@@ -50,5 +50,7 @@ Implementation of an LLM on the Vector DB Embeddings to provide the contextual a
 9. Visit Output of Sample Query:
     bash```
     Query: What wax is a sculpting product in the Schwarzkopf line?
-    Answer: Taft Hair Wax
+   ```
+   bash```
+   Answer: Taft Hair Wax
    ```
