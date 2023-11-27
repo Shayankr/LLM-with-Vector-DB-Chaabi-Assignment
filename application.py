@@ -23,10 +23,10 @@ def search():
 		# Write code here:
 
 		# Get top-k relevant results
-		top_k_res = qr.find_k_relevant(question, top_k=5)
+		top_k_res = qr.find_k_relevant(query, top_k=5)
 
 		# Extract answer
-		result = qr.extract_answer(question, top_k_res)
+		result = qr.extract_answer(query, top_k_res)
 
 		return jsonify({'answer': result})
 
